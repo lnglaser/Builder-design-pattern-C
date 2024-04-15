@@ -1,5 +1,5 @@
-static class Player {
+class Player {
 
-  public static string Name = "Hero";
+  public string Name = "Hero";
   
 }

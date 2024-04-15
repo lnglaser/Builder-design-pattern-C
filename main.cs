@@ -2,6 +2,9 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    Console.WriteLine (Player.Name);
+
+    Player playerObject = new Player();
+
+    Console.WriteLine (playerObject.Name);
   }
 }
